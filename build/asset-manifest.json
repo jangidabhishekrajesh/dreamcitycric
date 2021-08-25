@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6ce4e93.chunk.css",
+    "main.js": "/static/js/main.16b3c3bf.chunk.js",
+    "main.js.map": "/static/js/main.16b3c3bf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4cb2fb23.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4cb2fb23.js.map",
+    "static/js/2.e3f5d130.chunk.js": "/static/js/2.e3f5d130.chunk.js",
+    "static/js/2.e3f5d130.chunk.js.map": "/static/js/2.e3f5d130.chunk.js.map",
+    "static/js/3.ff263313.chunk.js": "/static/js/3.ff263313.chunk.js",
+    "static/js/3.ff263313.chunk.js.map": "/static/js/3.ff263313.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f6ce4e93.chunk.css.map": "/static/css/main.f6ce4e93.chunk.css.map",
+    "static/js/2.e3f5d130.chunk.js.LICENSE.txt": "/static/js/2.e3f5d130.chunk.js.LICENSE.txt",
+    "static/media/abhi.0242ba57.jpg": "/static/media/abhi.0242ba57.jpg",
+    "static/media/abhijangid.a56f9eac.JPG": "/static/media/abhijangid.a56f9eac.JPG",
+    "static/media/bhishe.357c1164.jpg": "/static/media/bhishe.357c1164.jpg",
+    "static/media/coach.b04ba923.png": "/static/media/coach.b04ba923.png",
+    "static/media/crick1.2a78cf77.jpg": "/static/media/crick1.2a78cf77.jpg",
+    "static/media/crick3.6396f849.jpeg": "/static/media/crick3.6396f849.jpeg",
+    "static/media/crick4.ba91f75f.jpg": "/static/media/crick4.ba91f75f.jpg",
+    "static/media/crick5.89d3541e.jpg": "/static/media/crick5.89d3541e.jpg",
+    "static/media/cricket.43a894e3.png": "/static/media/cricket.43a894e3.png",
+    "static/media/dcca.d573c840.png": "/static/media/dcca.d573c840.png",
+    "static/media/kids.29a20525.jpeg": "/static/media/kids.29a20525.jpeg",
+    "static/media/pla.99736590.jpg": "/static/media/pla.99736590.jpg",
+    "static/media/play.ed41a9ff.jpg": "/static/media/play.ed41a9ff.jpg",
+    "static/media/playe.744aa8cf.jpeg": "/static/media/playe.744aa8cf.jpeg",
+    "static/media/squad.28a239a1.png": "/static/media/squad.28a239a1.png",
+    "static/media/yuvi.dbab10e8.jpg": "/static/media/yuvi.dbab10e8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cb2fb23.js",
+    "static/js/2.e3f5d130.chunk.js",
+    "static/css/main.f6ce4e93.chunk.css",
+    "static/js/main.16b3c3bf.chunk.js"
+  ]
+}
