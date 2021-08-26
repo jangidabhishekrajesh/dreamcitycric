@@ -44,7 +44,8 @@ let Contact = () =>{
         e.preventDefault();
         const isValid = validate();
         if (isValid){
-            // submitToServer();
+            return <h1 className="text-success text-center mt-5">Thank you! We will connect soon!</h1>;
+            
         }
     }
     return(
@@ -95,7 +96,7 @@ let Contact = () =>{
                         <p className="text-danger">{errors.subjectErr}</p>
                     </div>
                     <div className="form-floating">
-                        <textarea name="message" className="form-control" placeholder="Leave a comment here" id="floatingTextarea" rows="2"></textarea>
+                        <textarea name="message" className="form-control" placeholder="Leave a comment here" id="floatingTextarea" rows="4"></textarea>
                         <label htmlFor="floatingTextarea"><small>Tell us! What you think about DCCA?</small></label>
                     </div>
                     <div className="mt-3 mb-3 form-check">

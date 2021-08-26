@@ -10,7 +10,7 @@ let Footer = () => {
                     <div className="col-12">
                         <div className="row ">
                             <div className="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-auto">
-                                <img src={dcca} width="50%" alt=""/>
+                                <img className="footerImg" src={dcca} width="50%" alt=""/>
                             </div>
                             <div className="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-auto">
                                 <h6 className="mb-3 mb-lg-4 bold-text text-light"><b>MENU</b></h6>
@@ -21,7 +21,7 @@ let Footer = () => {
                                     </Link>
                                     <Link to="/coach" id="linkHover"><li>Coaches</li>
                                     </Link>
-                                    <Link to="/admission" id="linkHover"><li>Get Admission</li>
+                                    <Link to="/admission" id="linkHover"><li>News & More</li>
                                     </Link>
                                     <Link to="/contact" id="linkHover"><li>Contact Us</li>
                                     </Link>
@@ -39,7 +39,7 @@ let Footer = () => {
                                 <div className="icon bg-light p-1" id="bg-light">
                                     <a href="http://www.instagram.com/dreamcitycric"><i className="fab fa-instagram-square text-danger fa-2x"></i></a> &nbsp;&nbsp;&nbsp;
                                     <a href="http://www.facebook.com/dreamcitycric"><i className="fab fa-facebook-square text-primary fa-2x"></i></a> &nbsp;&nbsp;&nbsp;
-                                    <a href="http://www.Whatsapp.com"><i className="fab fa-whatsapp-square text-success fa-2x"></i></a>
+                                    <a href="https://api.whatsapp.com/send?phone=918668261315&text=Contact%20Us"><i className="fab fa-whatsapp-square text-success fa-2x"></i></a>
                                     &nbsp;&nbsp;&nbsp;
                                     <a href="http://www.linkedin.com/in/abhishekjangid18" target="_blank" rel="noreferrer"><i className="fab fa-linkedin text-info fa-2x"></i></a>
                                 </div>

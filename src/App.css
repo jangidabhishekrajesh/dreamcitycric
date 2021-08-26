@@ -82,4 +82,8 @@ footer{
     height: 400px;
     image-resolution: 300dpi;
   }
+  .footerImg{
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
 }
