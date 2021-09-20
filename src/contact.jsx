@@ -1,5 +1,6 @@
 import { useState } from "react";
 import bhishe from "./image/bhishe.jpg";
+import {Fade} from "react-reveal";
 
 
 let Contact = () =>{
@@ -54,6 +55,7 @@ let Contact = () =>{
                 <div className="col-12">
                     <h2 className="text-center text-primary p-2">CONTACT US</h2>
                 </div>
+                <Fade left cascade>
                 <div className="row">
                     <div className="col-md-9 col-sm-12">
                         <div className="mt-3">
@@ -66,6 +68,8 @@ let Contact = () =>{
                         </div>
                     </div>
                 </div>
+                </Fade>
+                <Fade right cascade>
                 <div className="text-center card cardBlur p-3 mt-3">
                     <big>DREAM CITY CRICKET ACADEMY</big>
                     <br />
@@ -75,6 +79,8 @@ let Contact = () =>{
                     <br />
                     <span className="text-primary">Behind Reshmai Naturopathy,<br /> Khetiya Road, Dream City Society, Maloni, Shahada, Maharashtra, 425409,<br /> Mob: +919403080104, +918668261315, +919767084719</span>
                 </div>
+                </Fade>
+                <Fade left cascade>
                 <form className="card cardBlur p-5 mt-5" onSubmit={handleSubmit}>
                     <div className="col-12 mb-5">
                         <h2 className="text-center">Get In Touch</h2>
@@ -105,6 +111,7 @@ let Contact = () =>{
                     </div>
                     <button type="submit" value="Send" className="btn btn-primary">Submit</button>
                 </form>
+                </Fade>
             </div>
         </>
     );

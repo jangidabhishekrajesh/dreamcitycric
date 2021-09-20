@@ -1,6 +1,7 @@
 import {useState} from "react";
 import { Link } from "react-router-dom";
 import cricket from "./image/cricket.png";
+import {Fade} from "react-reveal";
 
 let Home = () => {
 
@@ -72,11 +73,13 @@ let Home = () => {
 
   return (
     <>
-      <div className="container-fluid shadow p-5" id="shodowContainer">
-        <h1 className="text-light">
-          We are committed to create a world class cricketers for tomorrow!
-        </h1>
-        <div className="row">
+      <div className="container-fluid shadow p-5" id="shodowContainer" data-aos="fade-up">
+        <Fade left cascade>
+          <h1 className="text-light">
+            We are committed to create a world class cricketers for tomorrow!
+          </h1>
+        </Fade>
+        <div className="row" data-aos="zoom-in" data-aos-delay="100">
           <div className="col-md-4 col-sm-12">
             <div className="p-3 mt-3 bg-light">
               <p className="text-muted">Want to get Admission? Click below button!</p>
@@ -241,6 +244,7 @@ let Home = () => {
                 </div>
               </div>
             </div>
+            <Fade left cascade>
             <div className="mt-3">
               <p className="text-light">
                 DCCA, the finest cricket academy in Shahada, Dist.
@@ -253,7 +257,9 @@ let Home = () => {
                 coaching, DCCA also provides accommodation for out station trainees.
               </p>
             </div>
+            </Fade>
             <hr />
+            <Fade left cascade>
             <div className="mt-3">
               <h5 className="text-light">HOW TO ENROLL?</h5>
               <hr />
@@ -300,7 +306,9 @@ let Home = () => {
                 DATE OF JOINING
               </span>
             </div>
+            </Fade>
           </div>
+          <Fade right cascade>
           <div className="col-md-8 col-sm-12 p-5">
             <img
               src={cricket}
@@ -308,19 +316,25 @@ let Home = () => {
               alt=""
             />
           </div>
+          </Fade>
         </div>
       </div>
       <div id="facilities">
         <div className="container-fluid card cardBlur">
-          <h1 className="text-dark text-center mt-4">
-            Facilities! That we provide.
-          </h1>
+          <Fade left cascade>
+            <h1 className="text-dark text-center mt-4">
+              Facilities! That we provide.
+            </h1>
+          </Fade>
+          <Fade right cascade>
           <p className="mt-4">
             At DCCA, do our best to expose our trainees to very scientific High
             Performance Training programs, along with appropriate tools to help,
             monitor, track and assess progress of our wards.
           </p>
+          </Fade>
           <hr />
+          <Fade left cascade>
           <ul style={{ listStyleType: "circle" }}>
             <li>One bowling machines</li>
             <li>
@@ -351,6 +365,7 @@ let Home = () => {
             <li>All modern coaching aids(equipment)</li>
             <li>Audio visual training facility</li>
           </ul>
+          </Fade>
           <p className="t1">
             <Link to="/contact" style={{ color: "navy" }}>
               Contact

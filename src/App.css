@@ -12,7 +12,7 @@ footer{
   color: blue;
 }
 #shadow-nav:hover{
-  border-bottom:1px solid blue;
+  border-bottom: 1px solid blue;
 }
 #shadow-nav:focus{
   background-color: blue;
