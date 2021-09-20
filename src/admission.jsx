@@ -32,6 +32,7 @@ let Admission = () => {
                         </h3>
                         <div className="cardBlur p-5 mb-5">
                             <Fade right cascade>
+
                             <h3 className="mb-5">Values Of DCCA!</h3>
                             </Fade>
                             <Fade left cascade>
