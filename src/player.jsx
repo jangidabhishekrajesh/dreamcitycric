@@ -1,14 +1,15 @@
 import React from "react";
-import play from "./image/play.jpg"
-import playe from "./image/playe.jpeg"
-import pla from "./image/pla.jpg"
-import abhijangid from "./image/abhijangid.JPG"
-import crick3 from "./image/crick3.jpeg"
-import crick4 from "./image/crick4.jpg"
-import crick5 from "./image/crick5.jpg"
-import crick1 from "./image/crick1.jpg"
-import squad from "./image/squad.png"
-import kids from "./image/kids.jpeg"
+import play from "./image/play.jpg";
+import playe from "./image/playe.jpeg";
+import pla from "./image/pla.jpg";
+import abhijangid from "./image/abhijangid.JPG";
+import crick3 from "./image/crick3.jpeg";
+import crick4 from "./image/crick4.jpg";
+import crick5 from "./image/crick5.jpg";
+import crick1 from "./image/crick1.jpg";
+import squad from "./image/squad.png";
+import kids from "./image/kids.jpeg";
+import {Fade} from "react-reveal";
 
 
 
@@ -16,10 +17,13 @@ let Player = () => {
     return(
         <>
             <div className="container-fluid mb-5">
+                <Fade top >
                 <div className="col-12 text-primary">
                     <h2 className="text-center p-2">OUR PLAYERS</h2>
                 </div>
+                </Fade>
                 <div className="row">
+                <Fade left cascade>
                     <div className="col-md-7">
                         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-indicators mb-5">
@@ -78,6 +82,8 @@ let Player = () => {
                         <hr />
                         <img className="mt-3" src={crick1} style={{width:"100%"}} alt="" />
                     </div>
+                    </Fade>
+                    <Fade right cascade>
                     <div className="col-md-5 cardBlur p-3">
                         <h2 className="text-center">A Player!</h2>
                         <hr />
@@ -106,6 +112,7 @@ let Player = () => {
                         खेल में अपना प्रर्दशन इस प्रकार दिखाओ की सामने वाली विरोधी टीम का प्रत्येक खिलाड़ी आपके लिए तालियां बजाने लग जाये।
                         </p>
                     </div>
+                    </Fade>
                 </div>
             </div>
         </>
