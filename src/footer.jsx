@@ -39,7 +39,7 @@ let Footer = () => {
                             <small className="rights text-center"><span style={{fontSize:"36px"}}>&#174;</span> Dream City Cricket Academy | All Rights Reserved.</small>
                             <p className="text-light">Copyright &copy; 2019</p>
                             <h6 className="text-light">Follow Us On</h6>
-                                <div className="icon bg-light p-1" id="bg-light">
+                                <div className="icon p-1" id="bg-light">
                                     <a href="http://www.instagram.com/dreamcitycric"><i className="fab fa-instagram-square text-danger fa-2x"></i></a> &nbsp;&nbsp;&nbsp;
                                     <a href="http://www.facebook.com/dreamcitycric"><i className="fab fa-facebook-square text-primary fa-2x"></i></a> &nbsp;&nbsp;&nbsp;
                                     <a href="https://api.whatsapp.com/send?phone=918668261315&text=Contact%20Us"><i className="fab fa-whatsapp-square text-success fa-2x"></i></a>
