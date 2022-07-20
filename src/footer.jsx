@@ -10,7 +10,7 @@ let Footer = () => {
                     <div className="col-12">
                         <div className="row ">
                             <div className="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-auto">
-                                <img className="footerImg" src={dcca} width="50%" alt=""/>
+                                <img className="footerImg" src={dcca} width="80" alt=""/>
                             </div>
                             <div className="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-auto">
                                 <h6 className="mb-3 mb-lg-4 bold-text text-light"><b>MENU</b></h6>
@@ -29,11 +29,14 @@ let Footer = () => {
                             </div>
                             <div className="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-auto text-light">
                                 <h6 className="mb-3 mb-lg-4 bold-text"><b>ADDRESS</b></h6>
-                                <p className="mb-1">Behind Reshmai Naturopathy,</p>
-                                <p>Dream City Society, Maloni</p>
+                                <a href="https://g.page/Dreamcitycric?share"><span className="addRess">
+                                Behind Reshmai Naturopathy,
+                                <br /> Khetiya Road, Dream City Society, Maloni, <br /> Shahada,
+                                Maharashtra, 425409
+                                </span></a>
                             </div>
                             <div className="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-auto text-light">
-                            <small className="rights text-center"><span>&#174;</span> Dream City Cricket Academy | All Rights Reserved.</small>
+                            <small className="rights text-center"><span style={{fontSize:"36px"}}>&#174;</span> Dream City Cricket Academy | All Rights Reserved.</small>
                             <p className="text-light">Copyright &copy; 2019</p>
                             <h6 className="text-light">Follow Us On</h6>
                                 <div className="icon bg-light p-1" id="bg-light">
