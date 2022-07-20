@@ -171,3 +171,11 @@ footer{
   text-decoration: none !important;
   color: #fff !important;
 }
+
+
+.cardBlur h5{
+  color: #727272;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+}

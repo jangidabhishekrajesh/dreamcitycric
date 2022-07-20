@@ -36,15 +36,22 @@ let About = () => {
                             <img src={dcca} width="100%" alt=""/>
                         </div>
                     </div>
-                    </Fade>
+                    </Fade> 
                 </div>
-                <Fade left>
-                <div className="col-12 mt-3 card cardBlur p-5">
-                    <h5 className="text-center">
-                    "The foundation of the Dream City Cricket Academy was laid by <b>Mr. Yuvraj Patil</b> & <b>Mr. Abhishek Jangid</b>, with the sole aim of providing an excellent platform for aspiring cricketers with quality training methods, world-class infrastructure, and the opportunity to learn from experts in the field of cricket, through a congenial and innovative environment. Academy Area The cricket academy spans over an 30000 sq feet land at Khetiya Road, Shahada, and is equipped with state-of- the-art training facilities. Our Techniques This all-year- round academy integrates the best in cricketing techniques, technology, fitness, mind games and coaches to create the World-Class Cricketer of Tomorrow. Our Strength For the overall development of the young cricketer, strength improvement through."
-                    </h5>
+            </div>
+
+            <div className="container my-5">
+                <div className="row">
+                    <div className="col-lg-1"></div>
+                        <Fade left>
+                            <div className="col-lg-10 my-3 cardBlur p-5">
+                                <h5 className="text-center">
+                                "The foundation of the Dream City Cricket Academy was laid by <b>Mr. Yuvraj Patil</b> & <b>Mr. Abhishek Jangid</b>, with the sole aim of providing an excellent platform for aspiring cricketers with quality training methods, world-class infrastructure, and the opportunity to learn from experts in the field of cricket, through a congenial and innovative environment. Academy Area The cricket academy spans over an 30000 sq feet land at Khetiya Road, Shahada, and is equipped with state-of- the-art training facilities. Our Techniques This all-year- round academy integrates the best in cricketing techniques, technology, fitness, mind games and coaches to create the World-Class Cricketer of Tomorrow. Our Strength For the overall development of the young cricketer, strength improvement through."
+                                </h5>
+                            </div>
+                        </Fade>
+                        <div className="col-lg-1"></div>
                 </div>
-                </Fade>
             </div>
         </>
     );

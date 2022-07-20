@@ -4,7 +4,6 @@ import { Fade } from "react-reveal";
 import emailjs from "@emailjs/browser";
 
 let Contact = () => {
-
   const [formData, setFormData] = useState({});
 
   const form = useRef();
@@ -35,9 +34,9 @@ let Contact = () => {
   return (
     <>
       <div className="container">
-        <Fade left>
-          <div className="row my-5">
-            <div className="col-md-6">
+        <div className="row my-5">
+          <div className="col-md-6">
+            <Fade left>
               <div className="mt-3">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.6452410660518!2d74.4772039140385!3d21.560722674782742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdf6d775487a6cd%3A0xf738ce59576d215e!2sDream%20City%20Cricket%20Academy!5e0!3m2!1sen!2sin!4v1628661500771!5m2!1sen!2sin"
@@ -47,33 +46,43 @@ let Contact = () => {
                   loading="lazy"
                 ></iframe>
               </div>
-            </div>
-            <div className="col-md-6">
-                <Fade right>
-                    <div className="cardBlur mt-3">
-                        <big>DREAM CITY CRICKET ACADEMY</big>
-                        <br />
-                        <small className="text-muted">
-                        DCCA, OPERATES SEVEN DAYS A WEEK from 06:00 TO 21:00.
-                        </small>
-                        <br />
-                        <br />
-                        <b>Address:</b>
-                        <br />
-                        <hr />
-                        <a href="https://g.page/Dreamcitycric?share"><span className="url">
-                        Behind Reshmai Naturopathy,
-                        <br /> Khetiya Road, Dream City Society, Maloni, <br /> Shahada,
-                        Maharashtra, 425409
-                        </span></a>
-                        <br /> <br /> 
-                        <span>Mob: <a className="url" href="tel:918668261315">+918668261315</a>&nbsp;<span className="url">/</span><a className="url" href="tel:919767084719">+919767084719</a></span>
-                    </div>
-                </Fade>
-            </div>
+            </Fade>
           </div>
-        </Fade>
-        
+          <div className="col-md-6">
+            <Fade right>
+              <div className="cardBlur mt-3">
+                <big>DREAM CITY CRICKET ACADEMY</big>
+                <br />
+                <small className="text-muted">
+                  DCCA, OPERATES SEVEN DAYS A WEEK from 06:00 TO 21:00.
+                </small>
+                <br />
+                <br />
+                <b>Address:</b>
+                <br />
+                <hr />
+                <a href="https://g.page/Dreamcitycric?share">
+                  <span className="url">
+                    Behind Reshmai Naturopathy,
+                    <br /> Khetiya Road, Dream City Society, Maloni, <br />{" "}
+                    Shahada, Maharashtra, 425409
+                  </span>
+                </a>
+                <br /> <br />
+                <span>
+                  Mob:{" "}
+                  <a className="url" href="tel:918668261315">
+                    +918668261315
+                  </a>
+                  &nbsp;<span className="url">/</span>
+                  <a className="url" href="tel:919767084719">
+                    +919767084719
+                  </a>
+                </span>
+              </div>
+            </Fade>
+          </div>
+        </div>
 
         <div className="row">
           <div className="col-lg-2"></div>
@@ -134,7 +143,9 @@ let Contact = () => {
                   </label>
                 </div>
                 <button
-                  onClick={(event) => sendEmail(event)} type="submit" name="submit"
+                  onClick={(event) => sendEmail(event)}
+                  type="submit"
+                  name="submit"
                   className="btn btn-primary my-5"
                 >
                   Submit
