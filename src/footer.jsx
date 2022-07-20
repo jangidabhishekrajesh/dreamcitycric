@@ -36,8 +36,9 @@ let Footer = () => {
                                 </span></a>
                             </div>
                             <div className="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-auto text-light">
-                            <small className="rights text-center"><span style={{fontSize:"36px"}}>&#174;</span> Dream City Cricket Academy | All Rights Reserved.</small>
-                            <p className="text-light">Copyright &copy; 2019</p>
+                            <small className="rights text-center"><span>&#174;</span> Dream City Cricket Academy | All Rights Reserved.</small>
+                            <br />
+                            <hr />
                             <h6 className="text-light">Follow Us On</h6>
                                 <div className="icon p-1" id="bg-light">
                                     <a href="http://www.instagram.com/dreamcitycric"><i className="fab fa-instagram-square text-danger fa-2x"></i></a> &nbsp;&nbsp;&nbsp;
