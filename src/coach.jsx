@@ -7,13 +7,8 @@ let Coach = () => {
     return(
         <>
             <div className="container-fluid">
-                <Fade top cascade>
-                <div className="col-12">
-                    <h2 className="text-center text-primary p-2">COACHES</h2>
-                </div>
-                </Fade>
                 <div className="row" id="shodowContainer">
-                    <Fade left cascade>
+                    <Fade left>
                     <div className="col-md-6 col-sm-12">
                         <p className="text-center text-light p-4">
                         Put simply, coaching is a process that aims to improve performance and focuses on the ‘here and now’ rather than on the distant past or future.
@@ -29,7 +24,7 @@ let Coach = () => {
                         </div>
                     </div>
                     </Fade>
-                    <Fade right cascade>
+                    <Fade left>
                     <div className="col-md-6 col-sm-12 p-4">
                         <img src={coach} style={{height:"100%",width:"100%"}} alt="" />
                     </div>
@@ -37,14 +32,14 @@ let Coach = () => {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <Fade left cascade>
+                        <Fade left>
                         <div className="col-md-3 col-sm-12">
                             <div className="cardBlur mt-5 p-3">
                                 <img src={yuvi} width="100%" alt=""/>
                             </div>
                         </div>
                         </Fade>
-                        <Fade right cascade>
+                        <Fade left>
                         <div className="col-md-9 col-sm-12">
                             <div className="cardBlur mt-5 p-5">
                                     <h4 className="text-center"> <span className="text-dark">About the Director </span>
@@ -57,14 +52,14 @@ let Coach = () => {
                             </div>
                         </div>
                         </Fade>
-                        <Fade left cascade>
+                        <Fade left>
                         <div className="col-md-3 col-sm-12">
                             <div className="cardBlur mt-5 p-3">
                                 <img src={abhi} width="100%" alt=""/>
                             </div>
                         </div>
                         </Fade>
-                        <Fade right cascade>
+                        <Fade left>
                         <div className="col-md-9 col-sm-12">
                             <div className="cardBlur mt-5 p-5">
                                 <h4 className="text-center"><span className="text-dark">About the Coach </span> | <b>ABHISHEK JANGID</b></h4>

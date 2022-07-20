@@ -27,7 +27,7 @@ let Scroll = () => {
     return(
         <>
             <div className="container">
-                <span className="fas fa-triangle" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}>&#9757;</span>
+                <span className="fas fa-triangle" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}><b>&#8593;</b></span>
             </div>
         </>
     );

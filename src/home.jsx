@@ -74,7 +74,7 @@ let Home = () => {
   return (
     <>
       <div className="container-fluid shadow p-5" id="shodowContainer" data-aos="fade-up">
-        <Fade left cascade>
+        <Fade left>
           <h1 className="text-light">
             We are committed to create a world class cricketers for tomorrow!
           </h1>
@@ -244,7 +244,7 @@ let Home = () => {
                 </div>
               </div>
             </div>
-            <Fade left cascade>
+            <Fade left>
             <div className="mt-3">
               <p className="text-light">
                 DCCA, the finest cricket academy in Shahada, Dist.
@@ -259,13 +259,14 @@ let Home = () => {
             </div>
             </Fade>
             <hr />
-            <Fade left cascade>
+            <Fade left>
             <div className="mt-3">
               <h5 className="text-light">HOW TO ENROLL?</h5>
               <hr />
               <span className="text-light">
                 <b>1. VISIT DCCA</b>
               </span>
+              <br />
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.6452410660518!2d74.4772039140385!3d21.560722674782742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdf6d775487a6cd%3A0xf738ce59576d215e!2sDream%20City%20Cricket%20Academy!5e0!3m2!1sen!2sin!4v1628661500771!5m2!1sen!2sin"
                 height="150" title="map"
@@ -291,6 +292,7 @@ let Home = () => {
                 <b>5. PAY THE FEES AND JOIN!</b>
               </span>
               <br />
+              <br />
               <Link to="/course" style={{ textDecoration: "none" }}>
                 <span className="text-warning">
                   <b>CHECK OUT COURSES & FEES DETAILS</b>
@@ -308,7 +310,7 @@ let Home = () => {
             </div>
             </Fade>
           </div>
-          <Fade right cascade>
+          <Fade left>
           <div className="col-md-8 col-sm-12 p-5">
             <img
               src={cricket}
@@ -321,12 +323,12 @@ let Home = () => {
       </div>
       <div id="facilities">
         <div className="container-fluid card cardBlur">
-          <Fade left cascade>
+          <Fade left>
             <h1 className="text-dark text-center mt-4">
               Facilities! That we provide.
             </h1>
           </Fade>
-          <Fade right cascade>
+          <Fade left>
           <p className="mt-4">
             At DCCA, do our best to expose our trainees to very scientific High
             Performance Training programs, along with appropriate tools to help,
@@ -334,7 +336,7 @@ let Home = () => {
           </p>
           </Fade>
           <hr />
-          <Fade left cascade>
+          <Fade left>
           <ul style={{ listStyleType: "circle" }}>
             <li>One bowling machines</li>
             <li>
