@@ -174,8 +174,22 @@ footer{
 
 
 .cardBlur h5{
+  color: #464646;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+.cardBlur p{
   color: #727272;
   font-size: 16px;
   font-weight: 500;
+  line-height: 34px;
+}
+
+.cardBlur small{
+  color: #727272;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 34px;
 }

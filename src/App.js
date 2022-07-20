@@ -13,6 +13,7 @@ import Contact from "./contact"
 import Scroll from "./scroll"
 import Admission from "./admission"
 import Thankyou from './Thankyou';
+import AboutMore from './AboutMore';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route exact path="/admission"><Admission/></Route>
             <Route exact path="/contact"><Contact/></Route>
             <Route exact path="/thankyou"><Thankyou/></Route>
+            <Route exact path="/aboutmore"><AboutMore/></Route>
           </Switch>
           <Scroll/>
         <Footer/>
