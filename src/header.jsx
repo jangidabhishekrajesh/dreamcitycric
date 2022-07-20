@@ -14,7 +14,7 @@ let Header = () =>{
                     <div className="collapse navbar-collapse justify-content-end p-1" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link mx-1" id="shadow-nav" to="/about">ABOUT</Link>
+                                <Link className="nav-link mx-1" id="shadow-nav" to="/about">ABOUT US</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link mx-1" id="shadow-nav" to="/player">PLAYERS</Link>
