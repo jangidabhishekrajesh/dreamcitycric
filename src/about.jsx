@@ -41,6 +41,8 @@ let About = () => {
                 </div>
             </div>
 
+            <AboutMore/>
+
             <div className="container my-5">
                 <div className="row">
                     <div className="col-lg-1"></div>
@@ -53,8 +55,6 @@ let About = () => {
                     </Fade>
                 </div>
             </div>
-
-            <AboutMore/>
         </>
     );
 }
